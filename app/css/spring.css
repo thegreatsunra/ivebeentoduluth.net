@@ -1,0 +1,165 @@
+/* ===Global Styles=== */
+/* ------------------------------------------- */
+body {
+  background: #54635b url(/app/img/body-bg-01.png) left top repeat;
+  /* background: #6c5a3f url(/app/img/siskiwit/body-bg-03.png) left top repeat; */
+  color: #333;
+}
+a,
+a:link {
+  color: #3f6525;
+  /* text-decoration: none; */
+}
+a:visited {
+  color: #4f802f;
+}
+a:hover {
+  color: #2c471a;
+  text-decoration: none;
+}
+input.text {
+  /* background-color: #f6f2eb; */
+  border: 1px solid #666;
+  /* color: #483f33; */
+}
+textarea {
+  /* background-color: #f6f2eb; */
+  border: 1px solid #666;
+  /* color: #483f33; */
+}
+/* ===Layout Styles=== */
+/* ------------------------------------------- */
+div#whopper {
+  background: transparent url(/app/img/whopper-bottom-01.png) left bottom no-repeat;
+}
+div#w3 {
+  background: transparent url(/app/img/whopper-top-01.png) left top no-repeat;
+}
+div#w2 {
+  background: transparent url(/app/img/whopper-bg-01.png) left top repeat-y;
+}
+/* ===Header Styles=== */
+/* ------------------------------------------- */
+div#header {
+  /* background-color: #555d6f; */
+  background-image: url(/app/img/header-bg-02.jpg);
+}
+body.home div#header {
+  /* background-image: url(/app/img//app/img/siskiwit/header-home-bg-03.jpg); */
+}
+/* ===Navigation Styles=== */
+/* ------------------------------------------- */
+div#nav {
+  background: #2e5251 url(/app/img/nav-bg-01.png) left top repeat-x;
+  border-top: 1px solid #75a555;
+  border-bottom: 1px solid #1c300f;
+}
+div#nav ul {
+  /* border-top: 1px solid #99a0af; */
+}
+div#nav a {
+  color: #ddd;
+  text-shadow: 2px 2px 2px #111;
+}
+div#nav a:hover {
+  /* background-position: 100% -80px; */
+  color: #fff;
+}
+div#nav li.current a {
+  color: #bbb;
+  /* background: transparent url(/app/img//app/img/siskiwit/nav-bg-current-02.png) right top repeat-x; */
+}
+div#nav li.current a:hover {
+  /* background-position: right top; */
+}
+body.home div#nav li.home a,
+body.sizing div#nav li.sizing a,
+body.faq div#nav li.faq a,
+body.contact div#nav li.contact a {
+  color: #bbb;
+}
+/* ===Main Styles=== */
+/* ------------------------------------------- */
+div#main {
+  background: #e7eee5 url(/app/img/main-bg-01.png) left top repeat-y;
+}
+div#m2 {
+  /* background: transparent url(/app/img//app/img/siskiwit/luke-shadow-01.png) right bottom no-repeat; */
+}
+/* ===Footer Styles=== */
+/* ------------------------------------------- */
+div#footer {
+  text-align: center;
+  color: #ccc;
+  background: #3b5e23;
+  background: #6f788c url(/app/img/footer-bg-01.png) left top repeat-x;
+  border-bottom: 1px solid #122625;
+  border-top: 1px solid #4b807f;
+}
+div#footer a {
+  color: #eee;
+  text-decoration: none;
+}
+div#footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+div#f2 {
+  /* border-top: 1px solid #99a0af; */
+}
+/* ===Content Styles=== */
+/* ------------------------------------------- */
+div#content img,
+body#photolog div#sidebar img {
+  /* background-color: #f2ebe0; */
+  /* border: 1px solid #c9bead; */
+}
+div#content img:hover {
+  /* background-color: #eeeeee; */
+}
+div#content blockquote {
+  /* background: #dcd4c6; */
+  /* border: 1px solid #e3ded4; */
+}
+div#content pre {
+  /* background: #dcd4c6; */
+  /* border: 1px solid #e3ded4; */
+}
+table.shirtSizing {
+  margin-left: 46px;
+  border: 1px solid #aaa;
+  border-width: 1px 1px 0 1px;
+}
+table.shirtSizing td,
+table.shirtSizing th {
+  padding: 4px;
+  text-align: center;
+  border-bottom: 1px solid #aaa;
+}
+table.shirtSizing td {
+  background-color: #e7eee5;
+}
+table.shirtSizing th {
+  background-color: #c9d7c4;
+}
+table.shirtSizing tr.alt th {
+  background-color: #d5e4d0;
+}
+table.shirtSizing tr.alt td {
+  background-color: #f4f7f3;
+}
+/* ===Horizontal Rule Styles=== */
+/* ------------------------------------------- */
+div#content div.hr01,
+body#photolog div#sidebar div.hr01 {
+  /* background: transparent url(/app/img//app/img/siskiwit/hr-01.png) 50% 0 no-repeat; */
+}
+div#sidebar div.hr03 {
+  /* background: transparent url(/app/img//app/img/siskiwit/hr-03.png) 50% 0 no-repeat; */
+}
+/* ===Sidebar Styles=== */
+/* ------------------------------------------- */
+div#sidebar img {
+  /* background-color: #ede3d2; */
+  /* border: 1px solid #a79e90; */
+}
